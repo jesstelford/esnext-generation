@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "adventure": "^2.10.0",
-    "adventure-verify": "^2.2.0"
+    "adventure-verify": "^2.2.0",
+    "msee": "^0.1.1"
   }
 }
