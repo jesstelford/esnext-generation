@@ -14,12 +14,12 @@ Internally, the `forEach` method can be though of as using a traditional `for(..
 
 ## Your Task
 
-Create a function which returns the largest value in an array.
+Create a function, `max()`, which returns the largest value in an array.
 
 Complete the following boilerplate, then execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
 
 ```js
-module.exports = function(arr) {
+module.exports = function max(arr) {
   // return largest value in arr
 }
 ```

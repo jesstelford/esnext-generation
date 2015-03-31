@@ -4,11 +4,14 @@ var path = require('path'),
 module.exports = {
   title: 'Traditional Looping',
   problem: problem(__dirname, function (args, t) {
-    var f = require(path.resolve(args[0]));
-    t.equal(typeof f, 'function', 'you exported a function');
-    t.equal(f(2,3), 6, '2 * 3 = 6');
-    t.equal(f(1,1), 1, '1 * 1 = 1');
-    t.equal(f(0.5,0.5), 0.25, '0.5 * 0.5 = 0.25');
+    var solution = require(path.resolve(args[0]));
+    t.equal(typeof solution, 'function', 'you exported a function');
+
+    t.equal(solution([1, 2, 3, 4]), 4, 'max([1, 2, 3, 4]) == 4');
+    t.equal(solution([4, 3, 2, 1]), 4, 'max([4, 3, 2, 1]) == 4');
+    t.equal(solution([2, 4, 3, 1]), 4, 'max([2, 4, 3, 1]) == 4');
+    t.equal(solution([2, 4, 4, 1]), 4, 'max([2, 4, 4, 1]) == 4');
+
     t.end();
   })
 }
