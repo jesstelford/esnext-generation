@@ -9,7 +9,8 @@ var shop = adventure(packageJson.name),
 
 [
   'traditional-looping',
-  'introduction-to-iterators'
+  'introduction-to-iterators',
+  'built-in-iterators'
 ].forEach(function(lesson, index) {
 
   lesson = require('./' + lesson);
