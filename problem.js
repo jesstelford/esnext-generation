@@ -9,7 +9,10 @@ module.exports = function(dir, testCorrect) {
   };
 
   ['problem', 'solution', 'pass', 'fail'].forEach(function(type) {
-    problem[type] = msee.parseFile(dir + '/' + type + '.md');
+    problem[type] = msee.parseFile(
+      dir + '/' + type + '.md',
+      {paragraphEnd: '\n\n'}
+    );
   });
 
   return problem;
