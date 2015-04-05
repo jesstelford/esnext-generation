@@ -35,3 +35,10 @@ repository:
 
 This workshop was originally created for [CampJS V](http://v.campjs.com) - a
 weekend long unconference in Melbourne, Australia.
+
+# Contributing
+
+Pull Requests are welcome!
+
+This is a truly _open_ open source project: If your contributions are of a high
+quality, I will give you push permissions to make direct changes in the future.
