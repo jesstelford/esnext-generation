@@ -1,4 +1,4 @@
-# ESNext Generation Interactive Workshopper
+# ESNext Generation Interactive Workshop
 
 Javascript: The final frontier.
 In this journey, we will explore the strange new worlds of ESNext's Iterators
