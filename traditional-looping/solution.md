@@ -1,6 +1,9 @@
-## Solution
+----
 
-For comparison, here is an implementation using `forEach`, so you can compare notes:
+# Solution
+
+For comparison, here is an implementation using `forEach`, so you can compare
+notes:
 
 ```js
 module.exports = function max(arr) {
@@ -17,6 +20,17 @@ module.exports = function max(arr) {
 }
 ```
 
-## Next lesson
+_Note: The above solution does not include error checking or negative numbers
+for the sake of brevity._
 
-Execute `$ADVENTURE_COMMAND` to move on to the next lesson: Introduction to Iterators.
+## Extra Credit
+
+Can you rewrite your solution to use the other type of looping (either
+`for(...){}` or `forEach`)?
+
+----
+
+# Next lesson
+
+Execute `$ADVENTURE_COMMAND` to move on to the next lesson: _Introduction to
+Iterators_.

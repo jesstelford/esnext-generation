@@ -1,22 +1,44 @@
+# ESNext Generation Interactive Workshopper
+
+Javascript: The final frontier.
+In this journey, we will explore the strange new worlds of ESNext's Iterators
+and Generators.
+We will seek out new ways to loop; new iterations.
+We will boldly code what no one has coded before!
+
+----
+
 # Traditional Looping
 
-Javascript, being a C-like language, has the traditional `for(...){}` loop construct.
+Javascript, being a C-like language, has the traditional `for(...){}` loop
+construct. Over time the language has expanded to contain further looping
+constructs to cover Objects and Arrays:
 
 ## Objects
 
-The `for(... in ...){}` construct takes looping one step further, allowing enumeration of Object values.
+The `for(... in ...){}` construct allows a shorthand approach to enumeration of
+Object values without having to worry about collections with holes or
+non-numeric keys.
 
 ## Arrays
 
-The `Array.prototype.forEach(function() {})` method does the same for Arrays, allowing enumeration of indexes and values.
+Traditionally there is no shorthand equivalent of `for(... in ...){}` for
+Arrays, instead requiring a special function
+`Array.prototype.forEach(function(){})` to allow enumeration of indexes and
+values.
 
-Internally, the `forEach` method can be though of as using a traditional `for(...){}` loop, executing the given function once per array index.
+Internally, `forEach` can be thought of as using a traditional `for(...){}`
+loop, executing the given function once per array index.
 
-## Your Task
+----
 
-Create a function, `max()`, which returns the largest value in an array.
+# Your Mission
 
-Complete the following boilerplate, then execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
+Create a function, `max()`, which returns the largest value in an array. Use
+either `for(..){}` or `forEach` to achieve the looping.
+
+Complete the following boilerplate, then execute
+`$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
 
 ```js
 module.exports = function max(arr) {
@@ -24,6 +46,10 @@ module.exports = function max(arr) {
 }
 ```
 
-### Resources
+----
 
- * forEach: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+# Resources
+
+ * for(...){}: http://bit.ly/js-for
+ * for(... in ...){}: http://bit.ly/js-for-in
+ * Array.prototype.forEach: http://bit.ly/js-forEach
