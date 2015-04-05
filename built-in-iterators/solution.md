@@ -1,6 +1,7 @@
-## Solution
+# Solution
 
-For comparison, here is an implementation using `for(... of ...){}`, so you can compare notes:
+For comparison, here is an implementation using `for(... of ...){}`, so you can
+compare notes:
 
 ```js
 module.exports = function max(collection) {
@@ -17,6 +18,8 @@ module.exports = function max(collection) {
 }
 ```
 
-## Next lesson
+----
 
-Execute `$ADVENTURE_COMMAND` to move on to the next lesson: Built In Iterators.
+# Next lesson
+
+Execute `$ADVENTURE_COMMAND` to move on to the next lesson: _Built In Iterators_.
