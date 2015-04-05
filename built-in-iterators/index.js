@@ -2,7 +2,7 @@ var path = require('path'),
     problem = require('../problem');
 
 module.exports = {
-  title: 'Traditional Looping',
+  title: 'Built In Iterators',
   problem: problem(__dirname, function (args, t) {
     var solution = require(path.resolve(args[0]));
     t.equal(typeof solution, 'function', 'you exported a function');
