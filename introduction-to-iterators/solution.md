@@ -1,6 +1,8 @@
-## Solution
+----
 
-For comparison, here is an implementation using `forEach`, so you can compare notes:
+# Solution
+
+For comparison, here is a possible solution, so you can compare notes:
 
 ```js
 module.exports = function count() {
@@ -28,6 +30,13 @@ module.exports = function count() {
 }
 ```
 
-## Next lesson
+## Extra Credit
 
-Execute `$ADVENTURE_COMMAND` to move on to the next lesson: Built In Iterators.
+Can you rewrite your solution to accept a single parameter `maxNum`, the final
+number that should be returned, which defaults to `10` if not set?
+
+----
+
+# Next lesson
+
+Execute `$ADVENTURE_COMMAND` to move on to the next lesson: _Built In Iterators_.

@@ -1,24 +1,34 @@
 # Introduction To Iterators
 
-A new feature in the es6 (aka ESNext) standard, Iterators are a familiar concept in many other languages, and they have now landed in Javascript!
+A familiar concept in many other languages, Iterators have finally landed as a
+new Javascript feature in the es6 (aka ESNext) standard.
 
-"Iterators are nothing more than objects with a certain interface."[1] That interface consists of a single method:
+"_Iterators are nothing more than objects with a certain interface._"[1] That
+interface consists of a single method:
 
 `next()` **->** `{value: <mixed>, done: <boolean>}`
 
 * `value` contains the next item in the Iterator's collection.
 * `done` is true when the Iterator's collection is exhausted.
 
-Every time `next()` is called, the Iterator's collection is advanced one more item, and that item is returned as the `value`. Once all the items in the collection are exhasued, `value` will be the Iterator's "return value", and `done` will be `true`. All subsequent calls to `next()` will have the same result.
+Every time `next()` is called, the Iterator's collection is advanced one more
+item, and that item is returned as the `value`. Once all the items in the
+collection are exhasued, `value` will be the Iterator's "return value", and
+`done` will be `true`. All subsequent calls to `next()` will have the same
+result.
 
-While Iterators may appear overly verbose, we will learn in later lessons this verbosity can be excellently hidden, and provides for complex use cases.
+While Iterators may appear overly verbose, we will learn in later lessons this
+verbosity can be excellently hidden, and provides for complex use cases.
 
-## Your Task
+----
+
+# Your Mission
 
 Create a function, `count()`, which returns an Iterator that returns the numbers
 1, 2, 3, ... etc, up to 10.
 
-Complete the following boilerplate, then execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
+Complete the following boilerplate, then execute
+`$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
 
 ```js
 module.exports = function count() {
@@ -35,7 +45,9 @@ module.exports = function count() {
 }
 ```
 
-### Resources
+----
 
- * [1]: https://leanpub.com/understandinges6/read#leanpub-auto-what-are-iterators
+# Resources
+
+ * [1]: http://bit.ly/js-ues6-iterators
  * Iterable Protocol: http://bit.ly/js-iteration-protocol

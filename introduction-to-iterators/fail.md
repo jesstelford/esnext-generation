@@ -4,7 +4,8 @@ Check the errors above to see where you went wrong.
 
 # Hint
 
-An Iterator's `.next()` method must always return an object similar to `{value: 1, done: false}`.
+An Iterator's `.next()` method must always return an object similar to
+`{value: 1, done: false}`.
 
 Once all numbers have been returned, `done` should be `true`.
 
