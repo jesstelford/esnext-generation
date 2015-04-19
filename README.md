@@ -12,9 +12,8 @@ We will boldly code what no one has coded before!
 ## Getting Started
 
 ```
-$ git clone https://github.com/jesstelford/esnext-generation.git
-$ cd esnext-generation
-$ ./runner.js
+$ npm install -g esnext-generation
+$ esnext-generation
 ```
 
 Select the first lesson using arrow keys, then press <enter>, and follow the
@@ -25,7 +24,7 @@ prompts.
 Be sure to check your work first, which can often provide hints:
 
 ```
-$ ./runner.js verify <your-file.js>
+$ esnext-generation verify <your-file.js>
 ```
 
 If you're still having troubles, post a question in the nodeschool issues
