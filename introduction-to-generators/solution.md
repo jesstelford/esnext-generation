@@ -19,4 +19,4 @@ module.exports = function *generate(isEven) {
 
 # Next lesson
 
-Execute `$ADVENTURE_COMMAND` to move on to the next lesson: _TODO_.
+Execute `$ADVENTURE_COMMAND` to move on to the next lesson: _Passing Args To Yield_.

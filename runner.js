@@ -14,7 +14,8 @@ var shop = adventure(packageJson.name),
   'introduction-to-iterators',
   'built-in-iterators',
   'advanced-iterables',
-  'introduction-to-generators'
+  'introduction-to-generators',
+  'passing-args-to-yield'
 ].forEach(function(lesson, index) {
 
   lesson = require('./' + lesson);
