@@ -7,8 +7,8 @@ Check the errors above to see where you went wrong.
 Use the example provided in the lesson as a starting point, then modify it to
 return the even/odd numbers the same as we did in _Advanced Iterables_.
 
-Make sure you have the latest version of node.js (or any version of iojs) for
-your generator to work (remember: it's a relatively new es6 feature).
+Make sure you have node.js >= 0.11.4 (or any version of iojs) for your generator
+to work (remember: it's a relatively new es6 feature).
 
 # More Help
 

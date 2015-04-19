@@ -8,6 +8,13 @@ We will boldly code what no one has coded before!
 
 ----
 
+# Prerequisites
+
+Make sure you are using node.js >= 0.11.4 (or any version of iojs), otherwise
+your generator code may not execute correctly.
+
+----
+
 # Traditional Looping
 
 Javascript, being a C-like language, has the traditional `for(...){}` loop
