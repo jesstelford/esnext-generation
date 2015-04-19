@@ -22,4 +22,4 @@ module.exports = function max(collection) {
 
 # Next lesson
 
-Execute `$ADVENTURE_COMMAND` to move on to the next lesson: _Built In Iterators_.
+Execute `$ADVENTURE_COMMAND` to move on to the next lesson: _Advanced Iterables_.
