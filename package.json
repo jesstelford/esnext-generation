@@ -1,6 +1,6 @@
 {
   "name": "esnext-generation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Javascript: The final frontier. In this journey, we will explore the strange new worlds of ESNext's Iterators and Generators. We will seek out new ways to loop; new iterations. We will boldly code what no one has coded before!",
   "main": "runner.js",
   "bin": "runner.js",
@@ -9,6 +9,8 @@
     "iojs": "*"
   },
   "preferGlobal": true,
+  "repository": "jesstelford/esnext-generation",
+  "bugs": "https://github.com/jesstelford/esnext-generation/issues",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
