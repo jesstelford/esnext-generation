@@ -17,17 +17,16 @@ your generator code may not execute correctly.
 
 # Traditional Iterating
 
-Javascript, being a C-like language, has the traditional `for(...){}`
-construct. Over time the language has expanded to contain further iteration
-constructs to cover Objects and Arrays:
+JavaScript has evolved to include more convenient features for iterating over
+its built-in collection datatypes past the traditional `for(...){}`.
 
-## Objects
+## Iterating Objects Using for...in
 
 The `for(... in ...){}` construct allows a shorthand approach to iteration of
 Object values without having to worry about collections with holes or
 non-numeric keys.
 
-## Arrays
+## Iterating Arrays Using forEach
 
 Traditionally there is no shorthand equivalent of `for(... in ...){}` for
 Arrays, instead requiring a special function
