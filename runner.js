@@ -10,7 +10,7 @@ var shop = adventure(packageJson.name),
     lesson;
 
 [
-  'traditional-looping',
+  'traditional-iterating',
   'introduction-to-iterators',
   'built-in-iterators',
   'advanced-iterables',

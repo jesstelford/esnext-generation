@@ -1,6 +1,6 @@
 # Built In Iterators
 
-As we learned in _Traditional Looping_, the `forEach` method of arrays can be
+As we learned in _Traditional Iterating_, the `forEach` method of arrays can be
 used to enumerate their values. Internally, it can be thought of as using a
 traditional `for(...){}` loop.
 
@@ -30,7 +30,7 @@ Iterables expose their Iterator via the key `Symbol.iterator`, allowing the
 
 # Your Mission
 
-Rewrite your function, `max()`, from _Traditional Looping_ to return the largest
+Rewrite your function, `max()`, from _Traditional Iterating_ to return the largest
 value in an Iterable collection of numbers.
 
 Complete the following boilerplate, then execute

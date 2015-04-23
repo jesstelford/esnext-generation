@@ -15,7 +15,7 @@ your generator code may not execute correctly.
 
 ----
 
-# Traditional Looping
+# Traditional Iterating
 
 Javascript, being a C-like language, has the traditional `for(...){}` loop
 construct. Over time the language has expanded to contain further looping
