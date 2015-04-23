@@ -1,13 +1,13 @@
 # Built In Iterators
 
 As we learned in _Traditional Iterating_, the `forEach` method of arrays can be
-used to enumerate their values. Internally, it can be thought of as using a
-traditional `for(...){}` loop.
+used to enumerate their values. Internally, it can be thought of as using the
+traditional `for(...){}`.
 
 What if internally, the language used Iterators?
 
-Es6 does exactly this via a new looping construct `for(... of ...){}`[1], which
-allows looping over _any_ collection that has an Iterator!
+Es6 does exactly this via a new iteration construct `for(... of ...){}`[1], which
+allows iterating over _any_ collection that has an Iterator!
 
 Arrays, Objects, and the new es6 Map & Set collections all provide built in
 iterators. They are called _Iterables_. For example:
@@ -24,7 +24,7 @@ Iterables expose their Iterator via the key `Symbol.iterator`, allowing the
 
 # Notes
 
- * [1]: not to be confused with looping over objects via `for(... in ...){}`
+ * [1]: not to be confused with iterating over objects via `for(... in ...){}`
 
 ----
 

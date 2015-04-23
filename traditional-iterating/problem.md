@@ -17,8 +17,8 @@ your generator code may not execute correctly.
 
 # Traditional Iterating
 
-Javascript, being a C-like language, has the traditional `for(...){}` loop
-construct. Over time the language has expanded to contain further looping
+Javascript, being a C-like language, has the traditional `for(...){}`
+construct. Over time the language has expanded to contain further iteration
 constructs to cover Objects and Arrays:
 
 ## Objects
@@ -34,15 +34,15 @@ Arrays, instead requiring a special function
 `Array.prototype.forEach(function(){})` to allow enumeration of indexes and
 values.
 
-Internally, `forEach` can be thought of as using a traditional `for(...){}`
-loop, executing the given function once per array index.
+Internally, `forEach` can be thought of as using the traditional `for(...){}`,
+executing the given function once per array index.
 
 ----
 
 # Your Mission
 
 Create a function, `max()`, which returns the largest value in an array. Use
-either `for(..){}` or `forEach` to achieve the looping.
+either `for(..){}` or `forEach` to achieve the iteration.
 
 Complete the following boilerplate, then execute
 `$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.

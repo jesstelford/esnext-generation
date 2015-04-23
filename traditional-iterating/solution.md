@@ -25,7 +25,7 @@ for the sake of brevity._
 
 ## Extra Credit
 
-Can you rewrite your solution to use the other type of looping (either
+Can you rewrite your solution to use the other type of iteration (either
 `for(...){}` or `forEach`)?
 
 ----

@@ -4,7 +4,7 @@ Check the errors above to see where you went wrong.
 
 # Hint
 
-Try using `forEach` to loop over the array, like so:
+Try using `forEach` to iterate over the array, like so:
 
 ```js
 module.exports = function max(arr) {

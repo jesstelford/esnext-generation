@@ -1,3 +1,3 @@
 # Success!
 
-You correctly looped over the array and found the largest value.
+You correctly found the largest value by iterating over the array.
