@@ -1,7 +1,7 @@
 # Built In Iterators
 
 As we learned in _Traditional Iterating_, the `forEach` method of arrays can be
-used to enumerate their values. Internally, it can be thought of as using the
+used to iterate their values. Internally, it can be thought of as using the
 traditional `for(...){}`.
 
 What if internally, the language used Iterators?

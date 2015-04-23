@@ -23,7 +23,7 @@ constructs to cover Objects and Arrays:
 
 ## Objects
 
-The `for(... in ...){}` construct allows a shorthand approach to enumeration of
+The `for(... in ...){}` construct allows a shorthand approach to iteration of
 Object values without having to worry about collections with holes or
 non-numeric keys.
 
@@ -31,7 +31,7 @@ non-numeric keys.
 
 Traditionally there is no shorthand equivalent of `for(... in ...){}` for
 Arrays, instead requiring a special function
-`Array.prototype.forEach(function(){})` to allow enumeration of indexes and
+`Array.prototype.forEach(function(){})` to allow iteration of indexes and
 values.
 
 Internally, `forEach` can be thought of as using the traditional `for(...){}`,

@@ -5,8 +5,8 @@ method was chosen to allow both general usage iteration (as we have seen in the
 previous lessons), but also to enable more advanced techniques.
 
 The creation of Iterables is an area with a lot of flexibility. In _Introduction
-To Iterators_, we created an Iterable that enumerated a fixed set of numbers.
-What if we wanted to create an Iterable that enumerated a dynamic set of
+To Iterators_, we created an Iterable that iterated a fixed set of numbers.
+What if we wanted to create an Iterable that iterated a dynamic set of
 numbers, or any other data?
 
 Both the function which creates the Iterable (`max()` in _Introduction To
