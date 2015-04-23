@@ -13,7 +13,7 @@ We will boldly code what no one has coded before!
 
 ```
 $ npm install -g esnext-generation
-$ esnext-generation
+$ esnext-generation # or, shorter: esng
 ```
 
 Select the first lesson using arrow keys, then press <enter>, and follow the
