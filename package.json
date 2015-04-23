@@ -11,6 +11,7 @@
     "node": ">= 0.11.4",
     "iojs": "*"
   },
+  "engineStrict": true,
   "preferGlobal": true,
   "repository": "jesstelford/esnext-generation",
   "bugs": "https://github.com/jesstelford/esnext-generation/issues",
