@@ -17,25 +17,25 @@ your generator code may not execute correctly.
 
 # Introduction To Iterators
 
-A familiar concept in many other languages, Iterators have finally landed as a
-new Javascript feature in the ES6 standard.
+A familiar concept in many other languages, Iterators have landed as a new
+Javascript feature in the ES6 standard.
 
-"_Iterators are nothing more than objects with a certain interface._"[1] That
-interface consists of a single method:
+"_Iterators are nothing more than objects with a certain interface._"[1]
 
-`next()` **->** `{value: <mixed>, done: <boolean>}`
+That interface consists of a single method `.next()` which returns an object
+with two keys;
 
-* `value` contains the next item in the Iterator's collection.
-* `done` is true when the Iterator's collection is exhausted.
+* `value`: the next item in the Iterator's collection.
+* `done`: true when the Iterator's collection is exhausted.
 
 Every time `next()` is called, the Iterator's collection is advanced one more
-item, and that item is returned as the `value`. Once all the items in the
-collection are exhasued, `value` will be the Iterator's "return value", and
-`done` will be `true`. All subsequent calls to `next()` will have the same
-result.
+item, and that item is returned as the `value`.
+Once all the items in the collection are exhasued, `value` will be the
+Iterator's "return value", and `done` will be `true`.
+All subsequent calls to `next()` will have `done` set to `true`.
 
-While Iterators may appear overly verbose, we will learn in later lessons this
-verbosity can be excellently hidden, and provides for complex use cases.
+This Iterator interface is purposely structured to provide for both simple and
+complex use cases (as we'll learn in later lessons).
 
 ----
 
