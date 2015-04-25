@@ -43,7 +43,7 @@ $ learn-generators
 Now that you know the history of how Iterators and Generators came to be, and
 how to use them in the real-world, `learn-generators` will take you deeper into
 some interesting use cases such as: making async code look sync; catching errors
-in generators, and; using es6 Promises with generators.
+in generators, and; using ES6 Promises with generators.
 
 ## Share this workshop
 

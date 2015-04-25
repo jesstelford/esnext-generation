@@ -1,7 +1,7 @@
 # Introduction To Iterators
 
 A familiar concept in many other languages, Iterators have finally landed as a
-new Javascript feature in the es6 (aka ESNext) standard.
+new Javascript feature in the ES6 standard.
 
 "_Iterators are nothing more than objects with a certain interface._"[1] That
 interface consists of a single method:

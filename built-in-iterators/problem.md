@@ -6,10 +6,10 @@ traditional `for(...){}`.
 
 What if internally, the language used Iterators?
 
-Es6 does exactly this via a new iteration construct `for(... of ...){}`[1], which
+ES6 does exactly this via a new iteration construct `for(... of ...){}`[1], which
 allows iterating over _any_ collection that has an Iterator!
 
-Arrays, Objects, and the new es6 Map & Set collections all provide built in
+Arrays, Objects, and the new ES6 Map & Set collections all provide built in
 iterators. They are called _Iterables_. For example:
 
 ```js

@@ -2,7 +2,7 @@
 
 Javascript: The final frontier.
 
-In this journey, we will explore the strange new worlds of ESNext's Iterators
+In this journey, we will explore the strange new worlds of ES6 Iterators
 and Generators.
 
 We will seek out new ways to loop; new iterations.

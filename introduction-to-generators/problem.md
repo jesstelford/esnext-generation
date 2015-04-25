@@ -12,7 +12,7 @@ Something that could hide all the minutiae of creating an iterator and calling
 Say hello to **Generators**.
 
 Generators take what we learned in _Advanced Iterables_, and wraps them in some
-new es6 syntactic sugar. Instead of returning an object containing a `.next()`
+new ES6 syntactic sugar. Instead of returning an object containing a `.next()`
 method which returns the value, we use the new `yield` keyword to return the
 value directly from within the generator.
 
