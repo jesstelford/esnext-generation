@@ -41,24 +41,20 @@ complex use cases (as we'll learn in later lessons).
 
 # Your Mission
 
-Create a function, `count()`, which returns an Iterator that returns the numbers
-1, 2, 3, ... etc, up to 10.
+Create a function, `makeCounter(someObj)`, which turns `someObj` (a plain old
+Javascript Object) into an Iterator. This Iterator should count the positive
+integers starting at 1, through to and including 10.
 
 Copy this boilerplate to a new file and complete with your solution, then
 execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
 
 ```js
-module.exports = function count() {
+module.exports = function makeCounter(someObj) {
 
-  var myIterator = {
-    next: function() {
-
-      // complete me
-
-    }
+  someObj.next = function() {
+    // complete me
   }
 
-  return myIterator;
 }
 ```
 

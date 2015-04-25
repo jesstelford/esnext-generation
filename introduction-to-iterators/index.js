@@ -15,12 +15,12 @@ module.exports = {
 
     var solution = require(path.resolve(args[0])),
         tester = testIt.bind(null, t),
-        iterator,
+        iterator = {},
         result;
 
     t.equal(typeof solution, 'function', 'you exported a function');
 
-    iterator = solution();
+    solution(iterator);
 
     t.equal(typeof iterator.next, 'function', 'returns an iterator with .next()');
 
