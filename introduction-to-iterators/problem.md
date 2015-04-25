@@ -1,3 +1,20 @@
+# ESNext Generation Interactive Workshop
+
+Javascript: The final frontier.
+In this journey, we will explore the strange new worlds of ES6 Iterators
+and Generators.
+We will seek out new ways to loop; new iterations.
+We will boldly code what no one has coded before!
+
+----
+
+# Prerequisites
+
+Make sure you are using node.js >= 0.11.4 (or any version of iojs), otherwise
+your generator code may not execute correctly.
+
+----
+
 # Introduction To Iterators
 
 A familiar concept in many other languages, Iterators have finally landed as a

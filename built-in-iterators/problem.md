@@ -1,16 +1,26 @@
 # Built In Iterators
 
-As we learned in _Traditional Iterating_, the `forEach` method of arrays can be
-used to iterate their values. Internally, it can be thought of as using the
-traditional `for(...){}`.
+## Iterating Arrays Using .forEach()
 
-What if internally, the language used Iterators?
+Every array has methods on its prototype, allowing iteration of its numeric keys
+(aka: array indexes). The most simplest in form is the `.forEach()` method which
+very closely mimics the behaviour of the traditional `for` construct.
 
-ES6 does exactly this via a new iteration construct `for(... of ...){}`[1], which
-allows iterating over _any_ collection that has an Iterator!
+## Iterating Objects Using for...in
 
-Arrays, Objects, and the new ES6 Map & Set collections all provide built in
-iterators. They are called _Iterables_. For example:
+The `for...in` construct allows a shorthand approach to iteration of Object keys
+without having to worry about holes (non-contigious numeric keys), non-numeric
+keys, or if the key is on the object directly, or on the prototype.
+
+## Iterating Iterables Using `for...of`
+
+Instead of using two different methods to iterate depending on the type (Object
+or Array), ES6 provides a new construct `for...of`[1], allowing iteration over
+_any_ collection that has an Iterator!
+
+Arrays, Objects, and the new ES6 Map & Set collections all provide these built
+in iterators. Any collection which provides an iterator is called an _Iterable_.
+For example:
 
 ```js
 for(var i of [1, 2, 3]) {
@@ -20,18 +30,18 @@ for(var i of [1, 2, 3]) {
 ```
 
 Iterables expose their Iterator via the key `Symbol.iterator`, allowing the
-`for(... of ...){}` construct access to call `.next()` for us.
+`for...of` construct access to call `.next()` for us.
 
 # Notes
 
- * [1]: not to be confused with iterating over objects via `for(... in ...){}`
+ * [1]: not to be confused with iterating over objects via `for...in`
 
 ----
 
 # Your Mission
 
-Rewrite your function, `max()`, from _Traditional Iterating_ to return the largest
-value in an Iterable collection of numbers.
+Write a function `max()` to return the largest value in an Iterable collection
+of numbers.
 
 Complete the following boilerplate, then execute
 `$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
@@ -46,5 +56,7 @@ module.exports = function max(collection) {
 
 # Resources
 
- * Iterables and for-of: http://bit.ly/js-ues6-iterables
+ * .forEach(): http://bit.ly/js-forEach
+ * for...in: http://bit.ly/js-for-in
+ * Iterables and for...of: http://bit.ly/js-ues6-iterables
  * Iterable Protocol: http://bit.ly/js-iteration-protocol
