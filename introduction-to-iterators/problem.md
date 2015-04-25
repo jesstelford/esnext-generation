@@ -44,8 +44,8 @@ verbosity can be excellently hidden, and provides for complex use cases.
 Create a function, `count()`, which returns an Iterator that returns the numbers
 1, 2, 3, ... etc, up to 10.
 
-Complete the following boilerplate, then execute
-`$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
+Copy this boilerplate to a new file and complete with your solution, then
+execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
 
 ```js
 module.exports = function count() {

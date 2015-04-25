@@ -25,8 +25,8 @@ The Iterable should return all even numbers >= 2 if the first parameter to
 `generate()` is `true`, and return all odd numbers >= 1 if the first parameter
 to `generate()` is `false`.
 
-Complete the following boilerplate, then execute
-`$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
+Copy this boilerplate to a new file and complete with your solution, then
+execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
 
 ```js
 module.exports = function generate(isEven) {

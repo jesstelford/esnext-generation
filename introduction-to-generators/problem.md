@@ -81,8 +81,8 @@ Rewrite the function we created in _Advanced Iterables_ to be a generator: It
 must accept the same parameter `isEven`, and return the set of all even or odd
 numbers.
 
-Complete the following boilerplate, then execute
-`$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
+Copy this boilerplate to a new file and complete with your solution, then
+execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
 
 ```js
 module.exports = function *generate(isEven) {

@@ -43,8 +43,8 @@ Iterables expose their Iterator via the key `Symbol.iterator`, allowing the
 Write a function `max()` to return the largest value in an Iterable collection
 of numbers.
 
-Complete the following boilerplate, then execute
-`$ADVENTURE_COMMAND verify <your-file.js>` to verify your solution.
+Copy this boilerplate to a new file and complete with your solution, then
+execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
 
 ```js
 module.exports = function max(collection) {
