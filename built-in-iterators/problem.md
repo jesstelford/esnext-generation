@@ -18,7 +18,7 @@ Instead of using two different methods to iterate depending on the type (Object
 or Array), ES6 provides a new construct `for...of`[1], allowing iteration over
 _any_ collection that implements the _Iterable interface_!
 
-In ES6, Arrays, Objects, and the new Map & Set collections all implement the
+In ES6, Arrays, TypedArrays, and the new Map & Set collections all implement the
 Iterable interface. For example:
 
 ```js
