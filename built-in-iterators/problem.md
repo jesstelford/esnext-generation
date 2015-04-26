@@ -1,4 +1,4 @@
-# Built In Iterators
+# Built-In Iterators
 
 ## Iterating Arrays Using .forEach()
 
@@ -18,9 +18,9 @@ Instead of using two different methods to iterate depending on the type (Object
 or Array), ES6 provides a new construct `for...of`[1], allowing iteration over
 _any_ collection that has an Iterator!
 
-Arrays, Objects, and the new ES6 Map & Set collections all provide these built
-in iterators. Any collection which provides an iterator is called an _Iterable_.
-For example:
+Arrays, Objects, and the new ES6 Map & Set collections all provide these
+built-in iterators. Any collection which provides an iterator is called an
+_Iterable_.  For example:
 
 ```js
 for(var i of [1, 2, 3]) {
