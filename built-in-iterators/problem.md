@@ -47,15 +47,18 @@ typeof itr.next; // 'function'
 
 # Your Mission
 
-Write a function `max()` to return the largest value in an Iterable collection
-of numbers.
+Write a function `filterForNumbers(iterable)` which extracts only the numeric
+values from `iterable`, returning those values as an Array. `iterable` could be
+any built-in Iterable, or a custom Iterable exposing an Iterator via the key
+`Symbol.iterator`.
 
 Copy this boilerplate to a new file and complete with your solution, then
 execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
 
 ```js
-module.exports = function max(collection) {
-  // return largest value in collection
+module.exports = function filterForNumbers(iterable) {
+  // loop over iterable, adding numeric valus to a new array
+  // then return the new array of numbers
 }
 ```
 

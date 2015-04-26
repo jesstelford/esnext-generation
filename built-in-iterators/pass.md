@@ -1,3 +1,3 @@
 # Success!
 
-You correctly found the largest value in the Iterator.
+You correctly filtered the Iterable to retreive only numbers.

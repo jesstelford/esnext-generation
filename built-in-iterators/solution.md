@@ -1,20 +1,20 @@
 # Solution
 
-For comparison, here is an implementation using `for(... of ...){}`, so you can
-compare notes:
+For comparison, here is an implementation using `for...of`, so you can compare
+notes:
 
 ```js
-module.exports = function max(collection) {
+module.exports = function filterForNumbers(iterable) {
 
-  var largest = 0;
+  var result = [];
 
-  for(var value of collection) {
-    if (value > largest) {
-      largest = value;
+  for(var i of iterable) {
+    if (typeof i == 'number') {
+      result.push(i);
     }
-  };
+  }
 
-  return largest;
+  return result;
 }
 ```
 

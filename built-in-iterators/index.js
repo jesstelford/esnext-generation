@@ -7,8 +7,17 @@ module.exports = {
     var solution = require(path.resolve(args[0]));
     t.equal(typeof solution, 'function', 'you exported a function');
 
-    t.equal(solution([1, 2, 3, 4]), 4, 'max([1, 2, 3, 4]) == 4');
-    t.equal(solution(new Set([1, 2, 3, 4])), 4, 'max(new Set([1, 2, 3, 4])) == 4');
+    t.deepEqual(
+      solution([1, 'foo', 3, {bar: 4}]),
+      [1, 3],
+      "filterForNumbers([1, 'foo', 3, {bar: 4}]) == [1, 3]"
+    );
+
+    t.deepEqual(
+      solution(new Set(['a', -34, []])),
+      [-34],
+      "filterForNumbers(new Set(['a', -34, []])) == [-34]"
+    );
 
     t.end();
   })

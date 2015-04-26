@@ -4,7 +4,7 @@ Check the errors above to see where you went wrong.
 
 # Hint
 
-You must use `for(... of ...){}` to iterate over Iterables.
+You must use `for...of` to iterate over Iterables.
 
 # More Help
 
