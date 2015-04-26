@@ -57,7 +57,7 @@ execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
 
 ```js
 module.exports = function filterForNumbers(iterable) {
-  // loop over iterable, adding numeric valus to a new array
+  // loop over iterable, adding numeric values to a new array
   // then return the new array of numbers
 }
 ```
