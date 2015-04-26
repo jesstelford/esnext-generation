@@ -29,11 +29,19 @@ for(var i of [1, 2, 3]) {
 ```
 
 Iterables expose their Iterator via the key `Symbol.iterator` (also written as
-@@iterator), allowing the `for...of` construct access to call `.next()` for us:
+@@iterator)[2], allowing the `for...of` construct access to call `.next()` for
+us:
+
+```js
+var arr = [1, 2, 3];
+var itr = arr[Symbol.iterator]();
+typeof itr.next; // 'function'
+```
 
 # Notes
 
  * [1]: not to be confused with iterating over objects via `for...in`
+ * [2]: ES6 also introduces other common Symbols: http://bit.ly/js-symbols
 
 ----
 
