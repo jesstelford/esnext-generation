@@ -1,7 +1,7 @@
 # Passing Args To Yield
 
-Another interesting and powerful ability of Iterators is passing arguments into
-`.next()` (touched on during **Extra Credit** in _Advanced Iterables_).
+As we saw in _Advanced Iterables_, another interesting and powerful ability of
+Iterators is passing arguments into `.next()`.
 
 For a regular Iterable which defines its own Iterator and `.next()` method, we
 can accept the argument as a regular function parameter:

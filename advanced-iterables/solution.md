@@ -30,7 +30,7 @@ module.exports = function generate(isEven) {
 }
 ```
 
-## Extra Credit
+## Side Mission
 
 How could `generate()` be rewritten to accept an infinite Iterable (that gives
 the set of all positive integers), and continue to return just the odd or even
