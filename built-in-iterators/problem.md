@@ -16,11 +16,10 @@ keys, or if the key is on the object directly, or on the prototype.
 
 Instead of using two different methods to iterate depending on the type (Object
 or Array), ES6 provides a new construct `for...of`[1], allowing iteration over
-_any_ collection that has an Iterator!
+_any_ collection that implements the _Iterable interface_!
 
-Arrays, Objects, and the new ES6 Map & Set collections all provide these
-built-in iterators. Any collection which provides an iterator is called an
-_Iterable_.  For example:
+In ES6, Arrays, Objects, and the new Map & Set collections all implement the
+Iterable interface. For example:
 
 ```js
 for(var i of [1, 2, 3]) {
@@ -29,8 +28,8 @@ for(var i of [1, 2, 3]) {
 // Output: 1 2 3
 ```
 
-Iterables expose their Iterator via the key `Symbol.iterator`, allowing the
-`for...of` construct access to call `.next()` for us.
+Iterables expose their Iterator via the key `Symbol.iterator` (also written as
+@@iterator), allowing the `for...of` construct access to call `.next()` for us:
 
 # Notes
 
