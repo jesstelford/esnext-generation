@@ -1,6 +1,6 @@
 # Advanced Iterables
 
-A lot of thought went into designing the Iteratabls specificatoin: The `.next()`
+A lot of thought went into designing the Iteratabls specification: The `.next()`
 method was chosen to allow both general usage iteration (as we have seen in the
 previous lessons), but also to enable more advanced techniques.
 
@@ -19,7 +19,7 @@ up dynamic Iterables.
 # Your Mission
 
 Write a function to generate iterators, `generate()`, that returns an infinite
-Iterable. ie; an Iterable that never returns `done: true`.
+Iterable. i.e.; an Iterable that never returns `done: true`.
 
 The Iterable should return all even numbers >= 2 if the first parameter to
 `generate()` is `true`, and return all odd numbers >= 1 if the first parameter
