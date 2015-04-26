@@ -29,6 +29,9 @@ The Iterator should return all even numbers >= 2 if the first parameter to
 `generate()` is `true`, and return all odd numbers >= 1 if the first parameter
 to `generate()` is `false`.
 
+Also add the ability to swap between even <-> odd iterators mid-iteration by
+accepting a bool `swap` to `.next()`.
+
 Copy this boilerplate to a new file and complete with your solution, then
 execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
 
@@ -36,6 +39,7 @@ execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
 module.exports = function generate(isEven) {
   // return an Iterator for even numbers if isEven is true
   // or, return an Iterator for odd numbers if isEven is false
+  // If `.next(swap)` receives `true`, swap between even <-> odd
 
 }
 ```

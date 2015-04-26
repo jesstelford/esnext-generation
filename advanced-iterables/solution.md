@@ -6,8 +6,7 @@ For comparison, here is a possible solution, so you can compare notes:
 
 ```js
 module.exports = function generate(isEven) {
-  var num,
-      done = false;
+  var num;
 
   if (isEven) {
     num = 0;
@@ -16,13 +15,12 @@ module.exports = function generate(isEven) {
   }
 
   var myIterator = {
-    next: function() {
+    next: function(swap) {
 
-      num += 2;
+      num += (swap ? 1 : 2);
 
       return {
-        value: num,
-        done: false
+        value: num
       }
 
     }
@@ -34,9 +32,12 @@ module.exports = function generate(isEven) {
 
 ## Extra Credit
 
-Can you add the ability to swap between even <-> odd iterators mid-iteration?
+How could `generate()` be rewritten to accept an infinite Iterable (that gives
+the set of all positive integers), and continue to return just the odd or even
+numbers?
 
-*Hint*: Accept a parameter in the `.next()` function to do the swap.
+*Hint*: Remember you can call `.next()` as many times as you like on the
+passed-in Iterable's Iterator.
 
 ----
 
