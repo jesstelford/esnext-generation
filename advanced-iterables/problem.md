@@ -23,7 +23,7 @@ operations on those abstract sequences.
 # Your Mission
 
 Write a function to generate iterators, `generate()`, that returns an infinite
-Iterator. i.e.; an Iterator that never returns `done: true`.
+Iterator. i.e.; an Iterator that never returns `done: true`[1].
 
 The Iterator should return all even numbers >= 2 if the first parameter to
 `generate()` is `true`, and return all odd numbers >= 1 if the first parameter
@@ -39,6 +39,10 @@ module.exports = function generate(isEven) {
 
 }
 ```
+
+## Notes
+
+ * [1]: If the key `done` is left off, it is assumed to be `false`.
 
 ----
 

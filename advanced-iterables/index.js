@@ -1,11 +1,11 @@
 var path = require('path'),
     problem = require('../problem');
 
-function testIt(tape, result, value, done) {
-  tape.deepEqual(
-    result,
-    {value: value, done: done},
-    'iterator.next().value == {value: ' + value + ', done: ' + done + '}'
+function testIt(tape, result, value) {
+  tape.equal(
+    result.value,
+    value,
+    'iterator.next().value == ' + value
   );
 }
 
@@ -25,7 +25,7 @@ function testRange(tape, solution, isEven, min, max) {
 
   for (var i = min; i <= max; i += 2) {
     result = iterator.next();
-    tester(result, i, false);
+    tester(result, i);
   }
 }
 
