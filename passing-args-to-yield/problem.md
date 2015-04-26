@@ -17,11 +17,8 @@ module.exports = function allIntegers() {
         num = 0;
       }
 
-      num++
-
       return {
-        value: num,
-        done: false
+        value: num++;
       }
 
     }
