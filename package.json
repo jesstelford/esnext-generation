@@ -4,11 +4,11 @@
   "description": "Javascript: The final frontier. In this journey, we will explore the strange new worlds of ES6 Iterators and Generators. We will seek out new ways to loop; new iterations. We will boldly code what no one has coded before!",
   "main": "runner.js",
   "bin": {
-    "esnext-generation": "runner.js",
-    "esng": "runner.js"
+    "esnext-generation": "cli.js",
+    "esng": "cli.js"
   },
   "engines": {
-    "node": ">= 0.11.4",
+    "node": ">= 0.11.15",
     "iojs": "*"
   },
   "engineStrict": true,

@@ -9,6 +9,11 @@ We will seek out new ways to loop; new iterations.
 
 We will boldly code what no one has coded before!
 
+# Prerequisites
+
+Make sure you are using node.js >= 0.11.15 (or any version of iojs), otherwise
+your generator code may not execute correctly.
+
 ## Getting Started
 
 ```
