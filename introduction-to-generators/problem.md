@@ -79,7 +79,7 @@ Iterators.
 
 Rewrite the function we created in _Advanced Iterables_ to be a generator: It
 must accept the same parameter `isEven`, and return the set of all even or odd
-numbers.
+numbers. Don't worry about the `swap` argument this time, we will cover that next.
 
 Copy this boilerplate to a new file and complete with your solution, then
 execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
