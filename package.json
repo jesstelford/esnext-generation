@@ -1,6 +1,6 @@
 {
   "name": "esnext-generation",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Javascript: The final frontier. In this journey, we will explore the strange new worlds of ES6 Iterators and Generators. We will seek out new ways to loop; new iterations. We will boldly code what no one has coded before!",
   "main": "runner.js",
   "bin": {
