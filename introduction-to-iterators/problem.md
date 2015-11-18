@@ -30,7 +30,7 @@ with two keys;
 
 Every time `next()` is called, the Iterator's collection is advanced one more
 item, and that item is returned as the `value`.
-Once all the items in the collection are exhasued, `value` will be the
+Once all the items in the collection are exhausted, `value` will be the
 Iterator's "return value", and `done` will be `true`.
 All subsequent calls to `next()` will have `done` set to `true`.
 
