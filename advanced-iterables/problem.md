@@ -30,7 +30,8 @@ The Iterator should return all even numbers >= 2 if the first parameter to
 to `generate()` is `false`.
 
 Also add the ability to swap between even <-> odd iterators mid-iteration by
-accepting a bool `swap` to `.next()`.
+accepting a bool `swap` to `.next()`. For example, if the last call to `.next()`
+returned 2, calling `.next(true)` immediately afterward should return 3.
 
 Copy this boilerplate to a new file and complete with your solution, then
 execute `$ADVENTURE_COMMAND verify <your-file.js>` to verify it.
