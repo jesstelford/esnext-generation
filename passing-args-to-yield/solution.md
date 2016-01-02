@@ -5,16 +5,14 @@
 For comparison, here is a possible solution, so you can compare notes:
 
 ```js
-module.exports = function *generate() {
+module.exports = function *multiplier() {
   var num = 0,
-      multiplier = 1;
+      mul = 1;
 
   while(true) {
     num++;
-    multiplier = yield num * multiplier;
-    if (!multiplier) {
-      multiplier = 1;
-    }
+    mul = yield num * mul;
+    mul = mul || 1;
   }
 }
 ```
@@ -42,8 +40,8 @@ $ learn-generators
 
 Now that you know the history of how Iterators and Generators came to be, and
 how to use them in the real-world, `learn-generators` will take you deeper into
-some interesting use cases such as: making async code look sync; catching errors
-in generators, and; using ES6 Promises with generators.
+some interesting use cases such as: making async code look sync, catching errors
+in generators, and using ES6 Promises with generators.
 
 ## Share this workshop
 
