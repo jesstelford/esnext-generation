@@ -16,7 +16,7 @@ new ES6 syntactic sugar. Instead of returning an object containing a `.next()`
 method which returns the value, we use the new `yield` keyword to return the
 value directly from within the generator.
 
-To specify a generator, you add an asteriks `*` after the `function` keyword.
+To specify a generator, you add an asterisk `*` after the `function` keyword.
 
 For example, a generator which returns all integers from 1 to Infinity can be
 written as:
