@@ -18,7 +18,7 @@ module.exports = function allIntegers() {
       }
 
       return {
-        value: num++;
+        value: num++
       }
 
     }
@@ -32,11 +32,11 @@ Here, we pass the `reset` argument into `.next()` like so:
 
 ```js
 var it = allIntegers();
+console.log(it.next());     // {value: 0, done: false}
 console.log(it.next());     // {value: 1, done: false}
 console.log(it.next());     // {value: 2, done: false}
-console.log(it.next());     // {value: 3, done: false}
-console.log(it.next(true)); // {value: 1, done: false}
-console.log(it.next());     // {value: 2, done: false}
+console.log(it.next(true)); // {value: 0, done: false}
+console.log(it.next());     // {value: 1, done: false}
 ```
 
 Since generators return an Iterator, arguments can still be passed into the
