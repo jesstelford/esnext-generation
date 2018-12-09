@@ -7,12 +7,14 @@ For comparison, here is a possible solution, so you can compare notes:
 ```js
 module.exports = function *multiplier() {
   var num = 0,
-      mul = 1;
+      mult = 1;
 
   while(true) {
     num++;
-    mul = yield num * mul;
-    mul = mul || 1;
+    mult = yield num * mult;
+    if (!mult) {
+      mult = 1;
+    }
   }
 }
 ```
