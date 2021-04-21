@@ -17,8 +17,8 @@ your generator code may not execute correctly.
 ## Getting Started
 
 ```
-$ npm install -g esnext-generation
-$ esnext-generation # or, shorter: esng
+npm install -g esnext-generation
+esnext-generation # or, shorter: esng
 ```
 
 Select the first lesson using arrow keys, then press <enter>, and follow the
@@ -29,7 +29,7 @@ prompts.
 Be sure to check your work first, which can often provide hints:
 
 ```
-$ esnext-generation verify <your-file.js>
+esnext-generation verify <your-file.js>
 ```
 
 If you're still having troubles, post a question in the nodeschool issues
